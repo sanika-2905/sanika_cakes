@@ -12,6 +12,8 @@ export default defineConfig({
     base: '/sanika_cakes/',
   },
   tanstackStart: {
+    // Force static single-page app build for GitHub Pages compatibility
+    target: "spa",
     server: { entry: "server" },
   },
 });
