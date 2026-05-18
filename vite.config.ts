@@ -7,9 +7,9 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  // He khali add kara
   vite: {
-    base: '/pink-dream-bakery/',
+    // This must match your GitHub repository name exactly
+    base: '/sanika_cakes/',
   },
   tanstackStart: {
     server: { entry: "server" },
