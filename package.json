@@ -8,11 +8,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/client",
-    "build:dev": "vite build --mode development",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",

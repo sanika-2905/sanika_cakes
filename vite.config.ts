@@ -8,12 +8,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   vite: {
-    // This must match your GitHub repository name exactly
     base: '/sanika_cakes/',
   },
   tanstackStart: {
-    // Force static single-page app build for GitHub Pages compatibility
     target: "spa",
-    server: { entry: "server" },
   },
 });
