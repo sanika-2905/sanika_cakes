@@ -1,0 +1,1 @@
+import{j as t,L as n}from"./index-CWRV_D2s.js";const e=()=>t.jsxs("div",{className:"container mx-auto px-4 py-24 text-center",children:[t.jsx("h1",{className:"font-display text-4xl font-bold",children:"Cake not found"}),t.jsx(n,{to:"/cakes",className:"mt-4 inline-block text-primary underline",children:"Back to all cakes"})]});export{e as notFoundComponent};
